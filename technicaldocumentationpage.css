@@ -7,14 +7,14 @@
 
   }
 
-
-header{
+#content{
   padding-left: 250px;
   line-height: 2;
 }
 
-h1{
+header{
   font-size: 20px;
+  font-weight: bold;
 }
 
 li a{
@@ -40,7 +40,11 @@ ul{
 }
 
 @media only screen and (max-width: 400px){
-  width: 20%;
+  ul{
+    width: 150px;
+  }
+
+
 }
 
 main{
